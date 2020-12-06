@@ -1,0 +1,34 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "00000003.moc",
+  "textures": [
+    "textures/texture_00.png"
+  ],
+  "motions": {
+    "attack": [
+      {
+        "file": "motions/00000000.mtn",
+		"sound":"/sound/theresa_live2d_001.wav",
+		"sound_delay":-1,
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "hit": [
+      {
+        "file": "motions/00000001.mtn",
+		"sound":"/sound/theresa_live2d_001.wav",
+		"sound_delay":-1,
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "idle": [
+      {
+        "file": "motions/00000002.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ]
+  }
+}
